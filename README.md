@@ -2,9 +2,23 @@
 
 ### Summary
 
+- [Blogs](#blogs)
+- [CTF Challenges](#ctf-challenges)
 - [CVE](#cve)
 - [Other Security Advisories](#other-security-advisories)
 - [Public Acknowledgements](#public-acknowledgements)
+- [Academic Papers](#academic-papers)
+
+---
+### Blogs
+- [Rediscovering argument injection when using VCS tools - git and mercurial](https://snyk.io/blog/argument-injection-when-using-git-and-mercurial/)
+- [JavaScript type confusion: Bypassed input validation (and how to remediate)](https://snyk.io/blog/remediate-javascript-type-confusion-bypassed-input-validation/)
+
+---
+### CTF Challenges 
+- Damn Vulnerable Defi - [solutions](https://github.com/dellalibera/damn-vulnerable-defi-solutions) | [write-ups](https://github.com/dellalibera/ctf-writeups/tree/main/Damn_Vulnerable_DeFI)
+- EVM Puzzles - [solutions](https://github.com/dellalibera/evm-puzzles-solutions) | [write-ups](https://github.com/dellalibera/ctf-writeups/tree/main/EVM_Puzzles)
+- Offensive Vyper - [solutions](https://github.com/dellalibera/offensive_vyper-solutions) | [write-ups](https://github.com/dellalibera/ctf-writeups/tree/main/Offensive_Vyper)
 
 ---
 ### CVE
@@ -124,3 +138,8 @@
 - Fastweb Hall of Fame: [2020](https://www.fastweb.it/corporate/responsible-disclosure/?lng=EN)
 - TIM Hall of Fame: [2020](https://www.gruppotim.it/en/footer/responsible-disclosure.html)
 
+---
+### Academic Papers
+- Are mHealth Apps Secure? A Case Study. Chiara Braghin, Stelvio Cimato, and Alessio Della Libera. *In: 2018 IEEE 42nd
+Annual Computer Software and Applications Conference, COMPSAC 2018, Tokyo, Japan, 23-27 July 2018, Volume 2. pp. 335-340.* doi:
+[10.1109/COMPSAC.2018.10253](https://ieeexplore.ieee.org/document/8377881)
