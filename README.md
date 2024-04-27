@@ -25,6 +25,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 72  | [CVE-2024-3817](https://www.cve.org/CVERecord?id=CVE-2024-3817)                  | Command Injection            | **hashicorp/go-getter**   | Go                        |
 | 71  | [CVE-2023-26148](https://www.cve.org/CVERecord?id=CVE-2023-26148)                | CRLF Injection               | **libhv**                 | C/C++                     |
 | 70  | [CVE-2023-26147](https://www.cve.org/CVERecord?id=CVE-2023-26147)                | HTTP Response Splitting      | **libhv**                 | C/C++                     |
 | 69  | [CVE-2023-26146](https://www.cve.org/CVERecord?id=CVE-2023-26146)                | Cross-Site Scripting (XSS)   | **libhv**                 | C/C++                     |
@@ -129,6 +130,7 @@
 
 ---
 ### Public Acknowledgements
+- hashicorp: [HCSEC-2024-09](https://discuss.hashicorp.com/t/hcsec-2024-09-hashicorp-go-getter-vulnerable-to-argument-injection-when-fetching-remote-default-git-branches/66040)
 - Swift forums:
     - CVE-2023-0040: [Swift Forum Announcement](https://forums.swift.org/t/asynchttpclient-crlf-injection-in-http-request-headers-cve-2023-0040/62604)
     - CVE-2022-3215: [Swift Forum Announcement](https://forums.swift.org/t/cve-2022-3215-improper-neutralization-of-crlf-sequences-in-http-headers-http-response-splitting-in-swift-nio/60532)
