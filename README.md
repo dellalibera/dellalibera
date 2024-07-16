@@ -25,6 +25,12 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 78  | [CVE-2024-21526](https://www.cve.org/CVERecord?id=CVE-2024-21526)                | Denial of Service (DoS)      | **speaker**               | JavaScript, C/C++         |
+| 77  | [CVE-2024-21525](https://www.cve.org/CVERecord?id=CVE-2024-21525)                | Buffer Overflow              | **node-twain**            | JavaScript, C/C++         |
+| 76  | [CVE-2024-21524](https://www.cve.org/CVERecord?id=CVE-2024-21524)                | Out-of-bounds Read           | **node-stringbuilder**    | JavaScript, C/C++         |
+| 75  | [CVE-2024-21523](https://www.cve.org/CVERecord?id=CVE-2024-21523)                | Denial of Service (DoS)      | **images**                | JavaScript, C/C++         |
+| 74  | [CVE-2024-21522](https://www.cve.org/CVERecord?id=CVE-2024-21522)                | Improper Validation of Array Index   | **audify**                        | JavaScript, C/C++         |
+| 73  | [CVE-2024-21521](https://www.cve.org/CVERecord?id=CVE-2024-21521)                | Denial of Service (DoS)      | **@discordjs/opus**       | JavaScript, C/C++         |
 | 72  | [CVE-2024-3817](https://www.cve.org/CVERecord?id=CVE-2024-3817)                  | Command Injection            | **hashicorp/go-getter**   | Go                        |
 | 71  | [CVE-2023-26148](https://www.cve.org/CVERecord?id=CVE-2023-26148)                | CRLF Injection               | **libhv**                 | C/C++                     |
 | 70  | [CVE-2023-26147](https://www.cve.org/CVERecord?id=CVE-2023-26147)                | HTTP Response Splitting      | **libhv**                 | C/C++                     |
