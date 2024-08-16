@@ -11,6 +11,7 @@
 
 ---
 ### Blogs
+- [Vulnerabilities in NodeJS C/C++ add-on extensions](https://snyk.io/blog/nodejs-add-on-extensions/)
 - [Rediscovering argument injection when using VCS tools - git and mercurial](https://snyk.io/blog/argument-injection-when-using-git-and-mercurial/)
 - [JavaScript type confusion: Bypassed input validation (and how to remediate)](https://snyk.io/blog/remediate-javascript-type-confusion-bypassed-input-validation/)
 
