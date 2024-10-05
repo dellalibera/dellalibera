@@ -4,8 +4,7 @@
 
 - [Blogs](#blogs)
 - [CTF Challenges](#ctf-challenges)
-- [CVE](#cve)
-- [Other Security Advisories](#other-security-advisories)
+- [Security Advisories](#security-advisories)
 - [Public Acknowledgements](#public-acknowledgements)
 - [Academic Papers](#academic-papers)
 
@@ -22,97 +21,95 @@
 - Offensive Vyper - [solutions](https://github.com/dellalibera/offensive_vyper-solutions) | [write-ups](https://github.com/dellalibera/ctf-writeups/tree/main/Offensive_Vyper)
 
 ---
-### CVE
+### Security Advisories
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
-| 78  | [CVE-2024-21526](https://www.cve.org/CVERecord?id=CVE-2024-21526)                | Denial of Service (DoS)      | **speaker**               | JavaScript, C/C++         |
-| 77  | [CVE-2024-21525](https://www.cve.org/CVERecord?id=CVE-2024-21525)                | Buffer Overflow              | **node-twain**            | JavaScript, C/C++         |
-| 76  | [CVE-2024-21524](https://www.cve.org/CVERecord?id=CVE-2024-21524)                | Out-of-bounds Read           | **node-stringbuilder**    | JavaScript, C/C++         |
-| 75  | [CVE-2024-21523](https://www.cve.org/CVERecord?id=CVE-2024-21523)                | Denial of Service (DoS)      | **images**                | JavaScript, C/C++         |
-| 74  | [CVE-2024-21522](https://www.cve.org/CVERecord?id=CVE-2024-21522)                | Improper Validation of Array Index   | **audify**                        | JavaScript, C/C++         |
-| 73  | [CVE-2024-21521](https://www.cve.org/CVERecord?id=CVE-2024-21521)                | Denial of Service (DoS)      | **@discordjs/opus**       | JavaScript, C/C++         |
-| 72  | [CVE-2024-3817](https://www.cve.org/CVERecord?id=CVE-2024-3817)                  | Command Injection            | **hashicorp/go-getter**   | Go                        |
-| 71  | [CVE-2023-26148](https://www.cve.org/CVERecord?id=CVE-2023-26148)                | CRLF Injection               | **libhv**                 | C/C++                     |
-| 70  | [CVE-2023-26147](https://www.cve.org/CVERecord?id=CVE-2023-26147)                | HTTP Response Splitting      | **libhv**                 | C/C++                     |
-| 69  | [CVE-2023-26146](https://www.cve.org/CVERecord?id=CVE-2023-26146)                | Cross-Site Scripting (XSS)   | **libhv**                 | C/C++                     |
-| 68  | [CVE-2023-26142](https://www.cve.org/CVERecord?id=CVE-2023-26142)                | HTTP Response Splitting      | **Crow**                  | C/C++                     |
-| 67  | [CVE-2023-26138](https://www.cve.org/CVERecord?id=CVE-2023-26138)                | CRLF Injection               | **drogon**                | C/C++                     |
-| 66  | [CVE-2023-26137](https://www.cve.org/CVERecord?id=CVE-2023-26137)                | HTTP Response Splitting      | **drogon**                | C/C++                     |
-| 65  | [CVE-2022-25883](https://www.cve.org/CVERecord?id=CVE-2022-25883)                | Regular Expression Denial of Service (ReDoS) | **semver**                | JavaScript                |
-| 64  | [CVE-2023-26131](https://www.cve.org/CVERecord?id=CVE-2023-26131)                | Cross-Site Scripting (XSS)   | **xyproto/algernon**      | Go                        |
-| 63  | [CVE-2023-26130](https://www.cve.org/CVERecord?id=CVE-2023-26130)                | CRLF Injection               | **cpp-httplib**           | C/C++                     |
-| 62  | [CVE-2023-26103](https://www.cve.org/CVERecord?id=CVE-2023-26103)                | Regular Expression Denial of Service (ReDoS) | **deno**                  | Rust                      |
-| 61  | [CVE-2023-0040](https://www.cve.org/CVERecord?id=CVE-2023-0040)                  | CRLF Injection               | **async-http-client**     | Swift                     |
-| 60  | [CVE-2022-3918](https://www.cve.org/CVERecord?id=CVE-2022-3918)                  | CRLF Injection               | **apple/swift-corelibs-foundation** | Swift                     |
-| 59  | [CVE-2022-3215](https://www.cve.org/CVERecord?id=CVE-2022-3215)                  | HTTP Response Splitting      | **apple/swift-nio**       | Swift                     |
-| 58  | [CVE-2022-24065](https://www.cve.org/CVERecord?id=CVE-2022-24065)                | Command Injection            | **cookiecutter**          | Python                    |
-| 57  | [CVE-2022-26945](https://www.cve.org/CVERecord?id=CVE-2022-26945)                | Command Injection            | **hashicorp/go-getter**   | Go                        |
-| 56  | [CVE-2022-25878](https://www.cve.org/CVERecord?id=CVE-2022-25878)                | Prototype Pollution          | **protobufjs**            | JavaScript                |
-| 55  | [CVE-2022-25865](https://www.cve.org/CVERecord?id=CVE-2022-25865)                | Command Injection            | **workspace-tools**       | JavaScript                |
-| 54  | [CVE-2022-21190](https://www.cve.org/CVERecord?id=CVE-2022-21190)                | Prototype Pollution          | **convict**               | JavaScript                |
-| 53  | [CVE-2022-29184](https://www.cve.org/CVERecord?id=CVE-2022-29184)                | Remote Code Execution (RCE)  | **gocd**                  | Java                      |
-| 52  | [CVE-2022-21189](https://www.cve.org/CVERecord?id=CVE-2022-21189)                | Prototype Pollution          | **dexie**                 | JavaScript                |
-| 51  | [CVE-2022-25303](https://www.cve.org/CVERecord?id=CVE-2022-25303)                | Cross-Site Scripting (XSS)   | **whoogle-search**        | Python                    |
-| 50  | [CVE-2022-25866](https://www.cve.org/CVERecord?id=CVE-2022-25866)                | Command Injection            | **czproject/git-php**     | PHP                       |
-| 49  | [CVE-2022-25648](https://www.cve.org/CVERecord?id=CVE-2022-25648)                | Command Injection            | **git**                   | Ruby                      |
-| 48  | [CVE-2022-25766](https://www.cve.org/CVERecord?id=CVE-2022-25766)                | Remote Code Execution (RCE)  | **ungit**                 | JavaScript                |
-| 47  | [CVE-2022-24440](https://www.cve.org/CVERecord?id=CVE-2022-24440)                | Command Injection            | **cocoapods-downloader**  | Ruby                      |
-| 46  | [CVE-2022-24433](https://www.cve.org/CVERecord?id=CVE-2022-24433)                | Command Injection            | **simple-git**            | JavaScript                |
-| 45  | [CVE-2022-23915](https://www.cve.org/CVERecord?id=CVE-2022-23915)                | Remote Code Execution (RCE)  | **Weblate**               | Python                    |
-| 44  | [CVE-2022-21803](https://www.cve.org/CVERecord?id=CVE-2022-21803)                | Prototype Pollution          | **nconf**                 | JavaScript                |
-| 43  | [CVE-2022-21235](https://www.cve.org/CVERecord?id=CVE-2022-21235)                | Command Injection            | **Masterminds/vcs**       | Go                        |
-| 42  | [CVE-2022-21223](https://www.cve.org/CVERecord?id=CVE-2022-21223)                | Command Injection            | **cocoapods-downloader**  | Ruby                      |
-| 41  | [CVE-2022-21187](https://www.cve.org/CVERecord?id=CVE-2022-21187)                | Command Injection            | **libvcs**                | Python                    |
-| 40  | [CVE-2021-23820](https://www.cve.org/CVERecord?id=CVE-2021-23820)                | Prototype Pollution          | **json-pointer**          | JavaScript                |
-| 39  | [CVE-2021-23807](https://www.cve.org/CVERecord?id=CVE-2021-23807)                | Prototype Pollution          | **jsonpointer**           | JavaScript                |
-| 38  | [CVE-2021-23784](https://www.cve.org/CVERecord?id=CVE-2021-23784)                | Cross-Site Scripting (XSS)   | **tempura**               | JavaScript                |
-| 37  | [CVE-2021-23682](https://www.cve.org/CVERecord?id=CVE-2021-23682)                | Prototype Pollution          | **litespeed.js**          | JavaScript                |
-| 37  | [CVE-2021-23682](https://www.cve.org/CVERecord?id=CVE-2021-23682)                | Prototype Pollution          | **appwrite/server-ce**    | JavaScript                |
-| 36  | [CVE-2021-23624](https://www.cve.org/CVERecord?id=CVE-2021-23624)                | Prototype Pollution          | **dotty**                 | JavaScript                |
-| 35  | [CVE-2021-23597](https://www.cve.org/CVERecord?id=CVE-2021-23597)                | Denial of Service (DoS)      | **fastify-multipart**     | JavaScript                |
-| 34  | [CVE-2021-23509](https://www.cve.org/CVERecord?id=CVE-2021-23509)                | Prototype Pollution          | **json-ptr**              | JavaScript                |
-| 33  | [CVE-2021-23472](https://www.cve.org/CVERecord?id=CVE-2021-23472)                | Cross-Site Scripting (XSS)   | **bootstrap-table**       | JavaScript                |
-| 32  | [CVE-2021-23447](https://www.cve.org/CVERecord?id=CVE-2021-23447)                | Cross-Site Scripting (XSS)   | **teddy**                 | JavaScript                |
-| 31  | [CVE-2021-23445](https://www.cve.org/CVERecord?id=CVE-2021-23445)                | Cross-Site Scripting (XSS)   | **datatables.net**        | JavaScript                |
-| 30  | [CVE-2021-23444](https://www.cve.org/CVERecord?id=CVE-2021-23444)                | Prototype Pollution          | **jointjs**               | JavaScript                |
-| 29  | [CVE-2021-23443](https://www.cve.org/CVERecord?id=CVE-2021-23443)                | Cross-Site Scripting (XSS)   | **edge.js**               | JavaScript                |
-| 28  | [CVE-2021-23440](https://www.cve.org/CVERecord?id=CVE-2021-23440)                | Prototype Pollution          | **set-value**             | JavaScript                |
-| 27  | [CVE-2021-23438](https://www.cve.org/CVERecord?id=CVE-2021-23438)                | Prototype Pollution          | **mpath**                 | JavaScript                |
-| 26  | [CVE-2021-23436](https://www.cve.org/CVERecord?id=CVE-2021-23436)                | Prototype Pollution          | **immer**                 | JavaScript                |
-| 25  | [CVE-2021-23434](https://www.cve.org/CVERecord?id=CVE-2021-23434)                | Prototype Pollution          | **object-path**           | JavaScript                |
-| 24  | [CVE-2021-23390](https://www.cve.org/CVERecord?id=CVE-2021-23390)                | Arbitrary Code Execution     | **total4**                | JavaScript                |
-| 23  | [CVE-2021-23389](https://www.cve.org/CVERecord?id=CVE-2021-23389)                | Arbitrary Code Execution     | **total.js**              | JavaScript                |
-| 22  | [CVE-2021-23358](https://www.cve.org/CVERecord?id=CVE-2021-23358)                | Arbitrary Code Execution     | **underscore**            | JavaScript                |
-| 21  | [CVE-2021-23352](https://www.cve.org/CVERecord?id=CVE-2021-23352)                | Command Injection            | **madge**                 | JavaScript                |
-| 20  | [CVE-2021-23335](https://www.cve.org/CVERecord?id=CVE-2021-23335)                | LDAP Injection               | **is-user-valid**         | JavaScript                |
-| 19  | [CVE-2020-8186](https://www.cve.org/CVERecord?id=CVE-2020-8186)                  | Command Injection            | **devcert**               | JavaScript                |
-| 18  | [CVE-2020-7792](https://www.cve.org/CVERecord?id=CVE-2020-7792)                  | Prototype Pollution          | **mout**                  | JavaScript                |
-| 17  | [CVE-2020-7789](https://www.cve.org/CVERecord?id=CVE-2020-7789)                  | Command Injection            | **node-notifier**         | JavaScript                |
-| 16  | [CVE-2020-7777](https://www.cve.org/CVERecord?id=CVE-2020-7777)                  | Arbitrary Code Execution     | **jsen**                  | JavaScript                |
-| 15  | [CVE-2020-7772](https://www.cve.org/CVERecord?id=CVE-2020-7772)                  | Prototype Pollution          | **doc-path**              | JavaScript                |
-| 14  | [CVE-2020-7770](https://www.cve.org/CVERecord?id=CVE-2020-7770)                  | Prototype Pollution          | **json8**                 | JavaScript                |
-| 13  | [CVE-2020-7766](https://www.cve.org/CVERecord?id=CVE-2020-7766)                  | Prototype Pollution          | **json-ptr**              | JavaScript                |
-| 12  | [CVE-2020-7746](https://www.cve.org/CVERecord?id=CVE-2020-7746)                  | Prototype Pollution          | **chart.js**              | JavaScript                |
-| 11  | [CVE-2020-7743](https://www.cve.org/CVERecord?id=CVE-2020-7743)                  | Prototype Pollution          | **mathjs**                | JavaScript                |
-| 10  | [CVE-2020-7742](https://www.cve.org/CVERecord?id=CVE-2020-7742)                  | Prototype Pollution          | **simpl-schema**          | JavaScript                |
-| 9   | [CVE-2020-28499](https://www.cve.org/CVERecord?id=CVE-2020-28499)                | Prototype Pollution          | **merge**                 | JavaScript                |
-| 8   | [CVE-2020-28495](https://www.cve.org/CVERecord?id=CVE-2020-28495)                | Prototype Pollution          | **total.js**              | JavaScript                |
-| 7   | [CVE-2020-28494](https://www.cve.org/CVERecord?id=CVE-2020-28494)                | Command Injection            | **total.js**              | JavaScript                |
-| 6   | [CVE-2020-28480](https://www.cve.org/CVERecord?id=CVE-2020-28480)                | Prototype Pollution          | **jointjs**               | JavaScript                |
-| 5   | [CVE-2020-28478](https://www.cve.org/CVERecord?id=CVE-2020-28478)                | Prototype Pollution          | **gsap**                  | JavaScript                |
-| 4   | [CVE-2020-28477](https://www.cve.org/CVERecord?id=CVE-2020-28477)                | Prototype Pollution          | **immer**                 | JavaScript                |
-| 3   | [CVE-2020-28464](https://www.cve.org/CVERecord?id=CVE-2020-28464)                | Arbitrary Code Execution     | **djv**                   | JavaScript                |
-| 2   | [CVE-2020-28458](https://www.cve.org/CVERecord?id=CVE-2020-28458)                | Prototype Pollution          | **datatables.net**        | JavaScript                |
-| 1   | [CVE-2020-28442](https://www.cve.org/CVERecord?id=CVE-2020-28442)                | Prototype Pollution          | **js-data**               | JavaScript                |
-
----
-### Other Security Advisories
-
-| # | Reference     | Vulnerability  | Project    | Language |
-|---|-------------- | -------------- | ---------- |----------|
-| 23  | [Link](https://github.com/grafana/grafana-json-datasource/blob/main/CHANGELOG.md#v135---2023-04-05) | Cross-Site Scripting (XSS)   | **grafana/grafana-json-datasource** | JavaScript                |
-| 22  | [Link](https://discourse.mozilla.org/t/security-fix-repository-url-validation/94362) | Remote Code Execution (RCE)  | **mozilla/pontoon**       | Python                    |
+| 105 | [GHSA-78p3-fwcq-62c2](https://github.com/advisories/GHSA-78p3-fwcq-62c2)         | RCE/SQLi via Prototype Pollution | **@saltcorn/server**      | JavaScript                |
+| 104 | [GHSA-fm76-w8jw-xf8m](https://github.com/advisories/GHSA-fm76-w8jw-xf8m)         | Remote Code Execution (RCE)  | **@saltcorn/plugins-loader** | JavaScript                |
+| 103 | [GHSA-277h-px4m-62q8](https://github.com/advisories/GHSA-277h-px4m-62q8)         | Path Traversal               | **@saltcorn/server**      | JavaScript                |
+| 102 | [GHSA-cfqx-f43m-vfh7](https://github.com/advisories/GHSA-cfqx-f43m-vfh7)         | Exposure of Information Through Directory Listing | **@saltcorn/server**      | JavaScript                |
+| 101 | [CVE-2024-21526](https://www.cve.org/CVERecord?id=CVE-2024-21526)                | Denial of Service (DoS)      | **speaker**               | JavaScript                |
+| 100 | [CVE-2024-21525](https://www.cve.org/CVERecord?id=CVE-2024-21525)                | Buffer Overflow              | **node-twain**            | JavaScript                |
+| 99  | [CVE-2024-21524](https://www.cve.org/CVERecord?id=CVE-2024-21524)                | Out-of-bounds Read           | **node-stringbuilder**    | JavaScript                |
+| 98  | [CVE-2024-21523](https://www.cve.org/CVERecord?id=CVE-2024-21523)                | Denial of Service (DoS)      | **images**                | JavaScript                |
+| 97  | [CVE-2024-21522](https://www.cve.org/CVERecord?id=CVE-2024-21522)                | Improper Validation of Array Index | **audify**                | JavaScript                |
+| 96  | [CVE-2024-21521](https://www.cve.org/CVERecord?id=CVE-2024-21521)                | Denial of Service (DoS)      | **@discordjs/opus**       | JavaScript                |
+| 95  | [CVE-2024-3817](https://www.cve.org/CVERecord?id=CVE-2024-3817)                  | Command Injection            | **hashicorp/go-getter**   | Go                        |
+| 94  | [CVE-2023-26148](https://www.cve.org/CVERecord?id=CVE-2023-26148)                | CRLF Injection               | **libhv**                 | C/C++                     |
+| 93  | [CVE-2023-26147](https://www.cve.org/CVERecord?id=CVE-2023-26147)                | HTTP Response Splitting      | **libhv**                 | C/C++                     |
+| 92  | [CVE-2023-26146](https://www.cve.org/CVERecord?id=CVE-2023-26146)                | Cross-Site Scripting (XSS)   | **libhv**                 | C/C++                     |
+| 91  | [CVE-2023-26142](https://www.cve.org/CVERecord?id=CVE-2023-26142)                | HTTP Response Splitting      | **Crow**                  | C/C++                     |
+| 90  | [CVE-2023-26138](https://www.cve.org/CVERecord?id=CVE-2023-26138)                | CRLF Injection               | **drogon**                | C/C++                     |
+| 89  | [CVE-2023-26137](https://www.cve.org/CVERecord?id=CVE-2023-26137)                | HTTP Response Splitting      | **drogon**                | C/C++                     |
+| 88  | [CVE-2022-25883](https://www.cve.org/CVERecord?id=CVE-2022-25883)                | Regular Expression Denial of Service (ReDoS) | **semver**                | JavaScript                |
+| 87  | [CVE-2023-26131](https://www.cve.org/CVERecord?id=CVE-2023-26131)                | Cross-Site Scripting (XSS)   | **xyproto/algernon**      | Go                        |
+| 86  | [CVE-2023-26130](https://www.cve.org/CVERecord?id=CVE-2023-26130)                | CRLF Injection               | **cpp-httplib**           | C/C++                     |
+| 85  | [Link](https://github.com/grafana/grafana-json-datasource/blob/main/CHANGELOG.md#v135---2023-04-05) | Cross-Site Scripting (XSS)   | **grafana/grafana-json-datasource** | JavaScript                |
+| 84  | [CVE-2023-26103](https://www.cve.org/CVERecord?id=CVE-2023-26103)                | Regular Expression Denial of Service (ReDoS) | **deno**                  | Rust                      |
+| 83  | [CVE-2023-0040](https://www.cve.org/CVERecord?id=CVE-2023-0040)                  | CRLF Injection               | **async-http-client**     | Swift                     |
+| 82  | [CVE-2022-3918](https://www.cve.org/CVERecord?id=CVE-2022-3918)                  | CRLF Injection               | **apple/swift-corelibs-foundation** | Swift                     |
+| 81  | [CVE-2022-3215](https://www.cve.org/CVERecord?id=CVE-2022-3215)                  | HTTP Response Splitting      | **apple/swift-nio**       | Swift                     |
+| 80  | [CVE-2022-24065](https://www.cve.org/CVERecord?id=CVE-2022-24065)                | Command Injection            | **cookiecutter**          | Python                    |
+| 79  | [CVE-2022-26945](https://www.cve.org/CVERecord?id=CVE-2022-26945)                | Command Injection            | **hashicorp/go-getter**   | Go                        |
+| 78  | [CVE-2022-25878](https://www.cve.org/CVERecord?id=CVE-2022-25878)                | Prototype Pollution          | **protobufjs**            | JavaScript                |
+| 77  | [CVE-2022-25865](https://www.cve.org/CVERecord?id=CVE-2022-25865)                | Command Injection            | **workspace-tools**       | JavaScript                |
+| 76  | [CVE-2022-21190](https://www.cve.org/CVERecord?id=CVE-2022-21190)                | Prototype Pollution          | **convict**               | JavaScript                |
+| 75  | [CVE-2022-29184](https://www.cve.org/CVERecord?id=CVE-2022-29184)                | Remote Code Execution (RCE)  | **gocd**                  | Java                      |
+| 74  | [CVE-2022-21189](https://www.cve.org/CVERecord?id=CVE-2022-21189)                | Prototype Pollution          | **dexie**                 | JavaScript                |
+| 73  | [CVE-2022-25303](https://www.cve.org/CVERecord?id=CVE-2022-25303)                | Cross-Site Scripting (XSS)   | **whoogle-search**        | Python                    |
+| 72  | [CVE-2022-25866](https://www.cve.org/CVERecord?id=CVE-2022-25866)                | Command Injection            | **czproject/git-php**     | PHP                       |
+| 71  | [CVE-2022-25648](https://www.cve.org/CVERecord?id=CVE-2022-25648)                | Command Injection            | **git**                   | Ruby                      |
+| 70  | [CVE-2022-25766](https://www.cve.org/CVERecord?id=CVE-2022-25766)                | Remote Code Execution (RCE)  | **ungit**                 | JavaScript                |
+| 69  | [CVE-2022-24440](https://www.cve.org/CVERecord?id=CVE-2022-24440)                | Command Injection            | **cocoapods-downloader**  | Ruby                      |
+| 68  | [CVE-2022-24433](https://www.cve.org/CVERecord?id=CVE-2022-24433)                | Command Injection            | **simple-git**            | JavaScript                |
+| 67  | [CVE-2022-23915](https://www.cve.org/CVERecord?id=CVE-2022-23915)                | Remote Code Execution (RCE)  | **Weblate**               | Python                    |
+| 66  | [CVE-2022-21803](https://www.cve.org/CVERecord?id=CVE-2022-21803)                | Prototype Pollution          | **nconf**                 | JavaScript                |
+| 65  | [CVE-2022-21235](https://www.cve.org/CVERecord?id=CVE-2022-21235)                | Command Injection            | **Masterminds/vcs**       | Go                        |
+| 64  | [CVE-2022-21223](https://www.cve.org/CVERecord?id=CVE-2022-21223)                | Command Injection            | **cocoapods-downloader**  | Ruby                      |
+| 63  | [CVE-2022-21187](https://www.cve.org/CVERecord?id=CVE-2022-21187)                | Command Injection            | **libvcs**                | Python                    |
+| 62  | [Link](https://discourse.mozilla.org/t/security-fix-repository-url-validation/94362) | Remote Code Execution (RCE)  | **mozilla/pontoon**       | Python                    |
+| 61  | [CVE-2021-23820](https://www.cve.org/CVERecord?id=CVE-2021-23820)                | Prototype Pollution          | **json-pointer**          | JavaScript                |
+| 60  | [CVE-2021-23807](https://www.cve.org/CVERecord?id=CVE-2021-23807)                | Prototype Pollution          | **jsonpointer**           | JavaScript                |
+| 59  | [CVE-2021-23784](https://www.cve.org/CVERecord?id=CVE-2021-23784)                | Cross-Site Scripting (XSS)   | **tempura**               | JavaScript                |
+| 58  | [CVE-2021-23682](https://www.cve.org/CVERecord?id=CVE-2021-23682)                | Prototype Pollution          | **litespeed.js**          | JavaScript                |
+| 58  | [CVE-2021-23682](https://www.cve.org/CVERecord?id=CVE-2021-23682)                | Prototype Pollution          | **appwrite/server-ce**    | JavaScript                |
+| 57  | [CVE-2021-23624](https://www.cve.org/CVERecord?id=CVE-2021-23624)                | Prototype Pollution          | **dotty**                 | JavaScript                |
+| 56  | [CVE-2021-23597](https://www.cve.org/CVERecord?id=CVE-2021-23597)                | Denial of Service (DoS)      | **fastify-multipart**     | JavaScript                |
+| 55  | [CVE-2021-23509](https://www.cve.org/CVERecord?id=CVE-2021-23509)                | Prototype Pollution          | **json-ptr**              | JavaScript                |
+| 54  | [CVE-2021-23472](https://www.cve.org/CVERecord?id=CVE-2021-23472)                | Cross-Site Scripting (XSS)   | **bootstrap-table**       | JavaScript                |
+| 53  | [CVE-2021-23447](https://www.cve.org/CVERecord?id=CVE-2021-23447)                | Cross-Site Scripting (XSS)   | **teddy**                 | JavaScript                |
+| 52  | [CVE-2021-23445](https://www.cve.org/CVERecord?id=CVE-2021-23445)                | Cross-Site Scripting (XSS)   | **datatables.net**        | JavaScript                |
+| 51  | [CVE-2021-23444](https://www.cve.org/CVERecord?id=CVE-2021-23444)                | Prototype Pollution          | **jointjs**               | JavaScript                |
+| 50  | [CVE-2021-23443](https://www.cve.org/CVERecord?id=CVE-2021-23443)                | Cross-Site Scripting (XSS)   | **edge.js**               | JavaScript                |
+| 49  | [CVE-2021-23440](https://www.cve.org/CVERecord?id=CVE-2021-23440)                | Prototype Pollution          | **set-value**             | JavaScript                |
+| 48  | [CVE-2021-23438](https://www.cve.org/CVERecord?id=CVE-2021-23438)                | Prototype Pollution          | **mpath**                 | JavaScript                |
+| 47  | [CVE-2021-23436](https://www.cve.org/CVERecord?id=CVE-2021-23436)                | Prototype Pollution          | **immer**                 | JavaScript                |
+| 46  | [CVE-2021-23434](https://www.cve.org/CVERecord?id=CVE-2021-23434)                | Prototype Pollution          | **object-path**           | JavaScript                |
+| 45  | [CVE-2021-23390](https://www.cve.org/CVERecord?id=CVE-2021-23390)                | Arbitrary Code Execution     | **total4**                | JavaScript                |
+| 44  | [CVE-2021-23389](https://www.cve.org/CVERecord?id=CVE-2021-23389)                | Arbitrary Code Execution     | **total.js**              | JavaScript                |
+| 43  | [CVE-2021-23358](https://www.cve.org/CVERecord?id=CVE-2021-23358)                | Arbitrary Code Execution     | **underscore**            | JavaScript                |
+| 42  | [CVE-2021-23352](https://www.cve.org/CVERecord?id=CVE-2021-23352)                | Command Injection            | **madge**                 | JavaScript                |
+| 41  | [CVE-2021-23335](https://www.cve.org/CVERecord?id=CVE-2021-23335)                | LDAP Injection               | **is-user-valid**         | JavaScript                |
+| 40  | [CVE-2020-8186](https://www.cve.org/CVERecord?id=CVE-2020-8186)                  | Command Injection            | **devcert**               | JavaScript                |
+| 39  | [CVE-2020-7792](https://www.cve.org/CVERecord?id=CVE-2020-7792)                  | Prototype Pollution          | **mout**                  | JavaScript                |
+| 38  | [CVE-2020-7789](https://www.cve.org/CVERecord?id=CVE-2020-7789)                  | Command Injection            | **node-notifier**         | JavaScript                |
+| 37  | [CVE-2020-7777](https://www.cve.org/CVERecord?id=CVE-2020-7777)                  | Arbitrary Code Execution     | **jsen**                  | JavaScript                |
+| 36  | [CVE-2020-7772](https://www.cve.org/CVERecord?id=CVE-2020-7772)                  | Prototype Pollution          | **doc-path**              | JavaScript                |
+| 35  | [CVE-2020-7770](https://www.cve.org/CVERecord?id=CVE-2020-7770)                  | Prototype Pollution          | **json8**                 | JavaScript                |
+| 34  | [CVE-2020-7766](https://www.cve.org/CVERecord?id=CVE-2020-7766)                  | Prototype Pollution          | **json-ptr**              | JavaScript                |
+| 33  | [CVE-2020-7746](https://www.cve.org/CVERecord?id=CVE-2020-7746)                  | Prototype Pollution          | **chart.js**              | JavaScript                |
+| 32  | [CVE-2020-7743](https://www.cve.org/CVERecord?id=CVE-2020-7743)                  | Prototype Pollution          | **mathjs**                | JavaScript                |
+| 31  | [CVE-2020-7742](https://www.cve.org/CVERecord?id=CVE-2020-7742)                  | Prototype Pollution          | **simpl-schema**          | JavaScript                |
+| 30  | [CVE-2020-28499](https://www.cve.org/CVERecord?id=CVE-2020-28499)                | Prototype Pollution          | **merge**                 | JavaScript                |
+| 29  | [CVE-2020-28495](https://www.cve.org/CVERecord?id=CVE-2020-28495)                | Prototype Pollution          | **total.js**              | JavaScript                |
+| 28  | [CVE-2020-28494](https://www.cve.org/CVERecord?id=CVE-2020-28494)                | Command Injection            | **total.js**              | JavaScript                |
+| 27  | [CVE-2020-28480](https://www.cve.org/CVERecord?id=CVE-2020-28480)                | Prototype Pollution          | **jointjs**               | JavaScript                |
+| 26  | [CVE-2020-28478](https://www.cve.org/CVERecord?id=CVE-2020-28478)                | Prototype Pollution          | **gsap**                  | JavaScript                |
+| 25  | [CVE-2020-28477](https://www.cve.org/CVERecord?id=CVE-2020-28477)                | Prototype Pollution          | **immer**                 | JavaScript                |
+| 24  | [CVE-2020-28464](https://www.cve.org/CVERecord?id=CVE-2020-28464)                | Arbitrary Code Execution     | **djv**                   | JavaScript                |
+| 23  | [CVE-2020-28458](https://www.cve.org/CVERecord?id=CVE-2020-28458)                | Prototype Pollution          | **datatables.net**        | JavaScript                |
+| 22  | [CVE-2020-28442](https://www.cve.org/CVERecord?id=CVE-2020-28442)                | Prototype Pollution          | **js-data**               | JavaScript                |
 | 21  | [Snyk Advisory](https://security.snyk.io/vuln/SNYK-JS-STYLEDICTIONARY-1080632)   | Prototype Pollution          | **style-dictionary**      | JavaScript                |
 | 20  | [Snyk Advisory](https://security.snyk.io/vuln/SNYK-JS-HIGHCHARTS-1018906)        | Prototype Pollution          | **highcharts**            | JavaScript                |
 | 19  | [Snyk Advisory](https://security.snyk.io/vuln/SNYK-JS-JIFF-1017118)              | Prototype Pollution          | **jiff**                  | JavaScript                |
