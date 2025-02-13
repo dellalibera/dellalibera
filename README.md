@@ -3,7 +3,8 @@
 ### Summary
 
 - [Blogs](#blogs)
-- [CTF Challenges](#ctf-challenges)
+- [CTF Challenges (Blockchain - Ethereum)](#ctf-challenges)
+- [Certifications](#certifications)
 - [Security Advisories](#security-advisories)
 - [Public Acknowledgements](#public-acknowledgements)
 - [Academic Papers](#academic-papers)
@@ -15,10 +16,26 @@
 - [JavaScript type confusion: Bypassed input validation (and how to remediate)](https://snyk.io/blog/remediate-javascript-type-confusion-bypassed-input-validation/)
 
 ---
-### CTF Challenges 
+### CTF Challenges
 - Damn Vulnerable Defi - [solutions](https://github.com/dellalibera/damn-vulnerable-defi-solutions) | [write-ups](https://github.com/dellalibera/ctf-writeups/tree/main/Damn_Vulnerable_DeFI)
 - EVM Puzzles - [solutions](https://github.com/dellalibera/evm-puzzles-solutions) | [write-ups](https://github.com/dellalibera/ctf-writeups/tree/main/EVM_Puzzles)
 - Offensive Vyper - [solutions](https://github.com/dellalibera/offensive_vyper-solutions) | [write-ups](https://github.com/dellalibera/ctf-writeups/tree/main/Offensive_Vyper)
+
+---
+### Certifications
+
+| Certification | Reference | Date |
+| ------------- | --------- | ---- |
+| **Certified Ethereum Professional** **(CEP)** - CryptoCurrency Certification Consortium (C4) | [link](https://certifications.cryptoconsortium.org/certificate?type=Attempt&id=G6Jzb6TS9UD&hash=a6d423faa82858f2d97370c6c8e9b8bfd7c205906a536a820a510b28894c3ab3) | 01.2025 |
+| **Certified Bitcoin Professional (CBP)** - CryptoCurrency Certification Consortium (C4) | [link](https://certifications.cryptoconsortium.org/certificate?type=Attempt&id=HEEIkqDqYSo&hash=84d0fc2fbf3e49302a80aa5fd246442d6c4bb6cfa314423e194e0d344aeb8e97) | 01.2025 |
+| **Solana Auditors Bootcamp -** Ackee Blockchain Security | [solscan NFT](https://solscan.io/token/3Kyj9V8hBEsc4G1FQpWmaiDdR89W3B9FE42tGpZMRxNq#transactions) | 10.2024 |
+| **Certificate of Cloud Security Knowledge (CCSK)** - Cloud Security Alliance | [Credly badge link](https://www.credly.com/badges/d35bc52e-725c-407d-ae57-9a66f8a2c1fe) | 06.2024 |
+| **CompTIA Security+** - CompTIA | [Credly badge link](https://www.credly.com/badges/09feb67b-fadb-4779-8f1c-fcb8e387fe91) | 10.2023 |
+| **LFD121: Developing Secure Software** - The Linux Foundation | [Credly badge link](https://www.credly.com/badges/1b6826b7-ba21-4918-8f0d-2e4d7963de2d) | 02.2023 |
+| **eWPTX** - eLearnSecurity Web Application Penetration Tester eXtreme | - | 01.2023 |
+| **eWPT** - eLearnSecurity Web Application Penetration Tester  | - | 03.2020 |
+| **eMAPT** - eLearnSecurity Mobile Application Penetration Tester  | - | 06.2017 |
+| **eCPPT** - eLearnSecurity Certified Professional Penetration Tester  | - | 03.2017 |
 
 ---
 ### Security Advisories
