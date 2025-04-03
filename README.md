@@ -42,6 +42,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 108 | [GHSA-m5qc-5hw7-8vg7](https://github.com/advisories/GHSA-m5qc-5hw7-8vg7)         | Denial of Service (DoS)      | **image-size**      | JavaScript                |
 | 107 | [GHSA-pf56-h9qf-rxq4](https://github.com/advisories/GHSA-pf56-h9qf-rxq4)         | Stored Cross-Site Scripting (XSS) | **@saltcorn/server**      | JavaScript                |
 | 106 | [CVE-2024-47818](https://www.cve.org/CVERecord?id=CVE-2024-47818)                | Path Traversal               | **@saltcorn/server**      | JavaScript                |
 | 105 | [GHSA-78p3-fwcq-62c2](https://github.com/advisories/GHSA-78p3-fwcq-62c2)         | RCE/SQLi via Prototype Pollution | **@saltcorn/server**      | JavaScript                |
