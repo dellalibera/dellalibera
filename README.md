@@ -26,6 +26,7 @@
 
 | Certification | Reference | Date |
 | ------------- | --------- | ---- |
+| **Certified AI/ML Pentester (C-AI/MLPen) - with Merit** - The SecOps Group | ID:10153652  | 06.2025 |
 | **Certified Ethereum Professional** **(CEP)** - CryptoCurrency Certification Consortium (C4) | [link](https://certifications.cryptoconsortium.org/certificate?type=Attempt&id=G6Jzb6TS9UD&hash=a6d423faa82858f2d97370c6c8e9b8bfd7c205906a536a820a510b28894c3ab3) | 02.2025 |
 | **Certified Bitcoin Professional (CBP)** - CryptoCurrency Certification Consortium (C4) | [link](https://certifications.cryptoconsortium.org/certificate?type=Attempt&id=HEEIkqDqYSo&hash=84d0fc2fbf3e49302a80aa5fd246442d6c4bb6cfa314423e194e0d344aeb8e97) | 01.2025 |
 | **Solana Auditors Bootcamp -** Ackee Blockchain Security | [solscan NFT](https://solscan.io/token/3Kyj9V8hBEsc4G1FQpWmaiDdR89W3B9FE42tGpZMRxNq#transactions) | 10.2024 |
