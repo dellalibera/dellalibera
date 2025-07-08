@@ -43,6 +43,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 110 | [CVE-2025-53372](https://www.cve.org/CVERecord?id=CVE-2025-53372) </br> [GHSA-5w57-2ccq-8w95](https://github.com/advisories/GHSA-5w57-2ccq-8w95)         | Command Injection / RCE      | **node-code-sandbox-mcp**       | JavaScript                |
 | 109 | [CVE-2025-53107](https://www.cve.org/CVERecord?id=CVE-2025-53107) </br> [GHSA-3q26-f695-pp76](https://github.com/advisories/GHSA-3q26-f695-pp76)         | Command Injection / RCE      | **@cyanheads/git-mcp-server**       | JavaScript                |
 | 108 | [GHSA-m5qc-5hw7-8vg7](https://github.com/advisories/GHSA-m5qc-5hw7-8vg7)         | Denial of Service (DoS)      | **image-size**      | JavaScript                |
 | 107 | [GHSA-pf56-h9qf-rxq4](https://github.com/advisories/GHSA-pf56-h9qf-rxq4)         | Stored Cross-Site Scripting (XSS) | **@saltcorn/server**      | JavaScript                |
