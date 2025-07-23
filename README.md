@@ -43,6 +43,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 112 | [CVE-2025-54073](https://www.cve.org/CVERecord?id=CVE-2025-54073) </br> [GHSA-vf9j-h32g-2764](https://github.com/sammcj/mcp-package-docs/security/advisories/GHSA-vf9j-h32g-2764)         | Command Injection / RCE      | **mcp-package-docs**       | JavaScript                |
 | 111 | [CVE-2025-53355](https://www.cve.org/CVERecord?id=CVE-2025-53355) </br> [GHSA-gjv4-ghm7-q58q](https://github.com/advisories/GHSA-gjv4-ghm7-q58q)         | Command Injection / RCE      | **mcp-server-kubernetes**       | JavaScript                |
 | 110 | [CVE-2025-53372](https://www.cve.org/CVERecord?id=CVE-2025-53372) </br> [GHSA-5w57-2ccq-8w95](https://github.com/advisories/GHSA-5w57-2ccq-8w95)         | Command Injection / RCE      | **node-code-sandbox-mcp**       | JavaScript                |
 | 109 | [CVE-2025-53107](https://www.cve.org/CVERecord?id=CVE-2025-53107) </br> [GHSA-3q26-f695-pp76](https://github.com/advisories/GHSA-3q26-f695-pp76)         | Command Injection / RCE      | **@cyanheads/git-mcp-server**       | JavaScript                |
