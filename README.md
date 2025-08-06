@@ -43,6 +43,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 115 | [CVE-2025-54798](https://www.cve.org/CVERecord?id=CVE-2025-54798) </br> [GHSA-52f5-9888-hmc6](https://github.com/advisories/GHSA-52f5-9888-hmc6)         | Arbitrary temporary file / directory write      | **tmp**       | JavaScript                |
 | 114 | [CVE-2025-54387](https://www.cve.org/CVERecord?id=CVE-2025-54387) </br> [GHSA-mm3p-j368-7jcr](https://github.com/advisories/GHSA-mm3p-j368-7jcr)         | Path Traversal      | **ipx**       | JavaScript                |
 | 113 | [CVE-2025-53832](https://www.cve.org/CVERecord?id=CVE-2025-53832) </br> [GHSA-xj5p-8h7g-76m7](https://github.com/advisories/GHSA-xj5p-8h7g-76m7)         | Command Injection / RCE      | **@translated/lara-mcp**       | JavaScript                |
 | 112 | [CVE-2025-54073](https://www.cve.org/CVERecord?id=CVE-2025-54073) </br> [GHSA-vf9j-h32g-2764](https://github.com/advisories/GHSA-vf9j-h32g-2764)         | Command Injection / RCE      | **mcp-package-docs**       | JavaScript                |
