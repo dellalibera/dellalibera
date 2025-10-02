@@ -43,6 +43,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 117 | [GHSA-gxw4-4fc5-9gr5](https://github.com/advisories/GHSA-gxw4-4fc5-9gr5)         | Command Injection / RCE      | **figma-developer-mcp**       | JavaScript                |
 | 116 | [CVE-2025-55152](https://www.cve.org/CVERecord?id=CVE-2025-55152) </br> [GHSA-r3v7-pc4g-7xp9](https://github.com/advisories/GHSA-r3v7-pc4g-7xp9)         | Regular Expression Denial of Service (ReDoS)      | **@oakserver/oak**       | JavaScript                |
 | 115 | [CVE-2025-54798](https://www.cve.org/CVERecord?id=CVE-2025-54798) </br> [GHSA-52f5-9888-hmc6](https://github.com/advisories/GHSA-52f5-9888-hmc6)         | Arbitrary temporary file / directory write      | **tmp**       | JavaScript                |
 | 114 | [CVE-2025-54387](https://www.cve.org/CVERecord?id=CVE-2025-54387) </br> [GHSA-mm3p-j368-7jcr](https://github.com/advisories/GHSA-mm3p-j368-7jcr)         | Path Traversal      | **ipx**       | JavaScript                |
