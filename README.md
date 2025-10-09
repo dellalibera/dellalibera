@@ -5,6 +5,7 @@
 - [Blogs](#blogs)
 - [CTF Challenges (Blockchain - Ethereum)](#ctf-challenges)
 - [Certifications](#certifications)
+- [Press Mentions](#press-mentions)
 - [Security Advisories](#security-advisories)
 - [Public Acknowledgements](#public-acknowledgements)
 - [Academic Papers](#academic-papers)
@@ -37,6 +38,10 @@
 | **eWPT** - eLearnSecurity Web Application Penetration Tester  | - | 03.2020 |
 | **eMAPT** - eLearnSecurity Mobile Application Penetration Tester  | - | 06.2017 |
 | **eCPPT** - eLearnSecurity Certified Professional Penetration Tester  | - | 03.2017 |
+
+---
+### Press Mentions
+- *Dark Reading* - ["Framelink Figma MCP Server Opens Orgs to Agentic AI Compromise"](https://www.darkreading.com/vulnerabilities-threats/figma-mcp-server-agentic-ai-compromise) *(October 2025)* - mentions `CVE-2025-53967`
 
 ---
 ### Security Advisories
