@@ -43,6 +43,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 118 | [CVE-2025-61786](https://www.cve.org/CVERecord?id=CVE-2025-61786) </br> [GHSA-qq26-84mh-26j9](https://github.com/advisories/GHSA-qq26-84mh-26j9)         | Permission Model Bypass      | **deno**       | Rust                |
 | 117 | [CVE-2025-53967](https://www.cve.org/CVERecord?id=CVE-2025-53967) </br> [GHSA-gxw4-4fc5-9gr5](https://github.com/advisories/GHSA-gxw4-4fc5-9gr5)         | Command Injection / RCE      | **figma-developer-mcp**       | JavaScript                |
 | 116 | [CVE-2025-55152](https://www.cve.org/CVERecord?id=CVE-2025-55152) </br> [GHSA-r3v7-pc4g-7xp9](https://github.com/advisories/GHSA-r3v7-pc4g-7xp9)         | Regular Expression Denial of Service (ReDoS)      | **@oakserver/oak**       | JavaScript                |
 | 115 | [CVE-2025-54798](https://www.cve.org/CVERecord?id=CVE-2025-54798) </br> [GHSA-52f5-9888-hmc6](https://github.com/advisories/GHSA-52f5-9888-hmc6)         | Arbitrary temporary file / directory write      | **tmp**       | JavaScript                |
