@@ -48,6 +48,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 120 | [GHSA-4fmr-m2w5-f73j](https://github.com/treadiehq/port-kill/security/advisories/GHSA-4fmr-m2w5-f73j)         | Command Injection / RCE      | **port-kill-mcp**       | JavaScript                |
 | 119 | [CVE-2025-61785](https://www.cve.org/CVERecord?id=CVE-2025-61785) </br> [GHSA-vg2r-rmgp-cgqj](https://github.com/advisories/GHSA-vg2r-rmgp-cgqj)         | Permission Model Bypass      | **deno**       | Rust                |
 | 118 | [CVE-2025-61786](https://www.cve.org/CVERecord?id=CVE-2025-61786) </br> [GHSA-qq26-84mh-26j9](https://github.com/advisories/GHSA-qq26-84mh-26j9)         | Permission Model Bypass      | **deno**       | Rust                |
 | 117 | [CVE-2025-53967](https://www.cve.org/CVERecord?id=CVE-2025-53967) </br> [GHSA-gxw4-4fc5-9gr5](https://github.com/advisories/GHSA-gxw4-4fc5-9gr5)         | Command Injection / RCE      | **figma-developer-mcp**       | JavaScript                |
