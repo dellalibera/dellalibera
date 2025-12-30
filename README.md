@@ -48,7 +48,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
-| 121 | [CVE-2025-69256](https://www.cve.org/CVERecord?id=CVE-2025-69256) </br> [GHSA-gxw4-4fc5-9gr5](https://github.com/serverless/serverless/security/advisories/GHSA-rwc2-f344-q6w6)         | Command Injection / RCE      | **serverless**       | JavaScript                |
+| 121 | [CVE-2025-69256](https://www.cve.org/CVERecord?id=CVE-2025-69256) </br> [GHSA-gxw4-4fc5-9gr5](https://github.com/serverless/serverless/security/advisories/GHSA-rwc2-f344-q6w6)         | Command Injection / RCE      | **serverless** (MCP Server)      | JavaScript                |
 | 120 | [GHSA-4fmr-m2w5-f73j](https://github.com/treadiehq/port-kill/security/advisories/GHSA-4fmr-m2w5-f73j)         | Command Injection / RCE      | **port-kill-mcp**       | JavaScript                |
 | 119 | [CVE-2025-61785](https://www.cve.org/CVERecord?id=CVE-2025-61785) </br> [GHSA-vg2r-rmgp-cgqj](https://github.com/advisories/GHSA-vg2r-rmgp-cgqj)         | Permission Model Bypass      | **deno**       | Rust                |
 | 118 | [CVE-2025-61786](https://www.cve.org/CVERecord?id=CVE-2025-61786) </br> [GHSA-qq26-84mh-26j9](https://github.com/advisories/GHSA-qq26-84mh-26j9)         | Permission Model Bypass      | **deno**       | Rust                |
