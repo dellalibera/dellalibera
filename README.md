@@ -48,6 +48,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 123 | [GHSA-g7r4-m6w7-qqqr](https://github.com/advisories/GHSA-g7r4-m6w7-qqqr)         | Path Traversal      | **esbuild**     | Javascript                |
 | 122 | [GHSA-wfhj-v5g7-vr7g](https://github.com/deeplearning4j/deeplearning4j/security/advisories/GHSA-wfhj-v5g7-vr7g)         | Unsafe Deserialization      | **org.deeplearning4j:deeplearning4j** (ML Library)      | Java                |
 | 121 | [CVE-2025-69256](https://www.cve.org/CVERecord?id=CVE-2025-69256) </br> [GHSA-rwc2-f344-q6w6](https://github.com/advisories/GHSA-rwc2-f344-q6w6)         | Command Injection / RCE      | **serverless** (MCP Server)      | JavaScript                |
 | 120 | [GHSA-4fmr-m2w5-f73j](https://github.com/treadiehq/port-kill/security/advisories/GHSA-4fmr-m2w5-f73j)         | Command Injection / RCE      | **port-kill-mcp**       | JavaScript                |
