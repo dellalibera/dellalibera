@@ -48,6 +48,8 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 126 | [GHSA-6qq6-r45m-m6cv](https://github.com/image-size/image-size/security/advisories/GHSA-6qq6-r45m-m6cv)         | Denial of Service (DoS)      | **image-size**      | JavaScript                |
+| 125 | [GHSA-rc24-26r6-qxg2](https://github.com/image-size/image-size/security/advisories/GHSA-rc24-26r6-qxg2)         | Denial of Service (DoS)      | **image-size**      | JavaScript                |
 | 124 | [CVE-2026-69152](https://www.cve.org/CVERecord?id=CVE-2026-69152) </br> [GHSA-rgw5-rvv9-x895](https://github.com/advisories/GHSA-rgw5-rvv9-x895)         | Regular Expression Denial of Service (ReDoS)      | **brace-expansion**     | Javascript                |
 | 123 | [GHSA-g7r4-m6w7-qqqr](https://github.com/advisories/GHSA-g7r4-m6w7-qqqr)         | Path Traversal      | **esbuild**     | Javascript                |
 | 122 | [GHSA-wfhj-v5g7-vr7g](https://github.com/deeplearning4j/deeplearning4j/security/advisories/GHSA-wfhj-v5g7-vr7g)         | Unsafe Deserialization      | **org.deeplearning4j:deeplearning4j** (ML Library)      | Java                |
