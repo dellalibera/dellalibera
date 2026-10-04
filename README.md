@@ -48,6 +48,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 127 | [CVE-2026-102827](https://www.cve.org/CVERecord?id=CVE-2026-102827) </br> [GHSA-858h-whjf-mvg5](https://github.com/steveukx/git-js/security/advisories/GHSA-858h-whjf-mvg5)         | Command Injection            | **simple-git**            | JavaScript                |
 | 126 | [GHSA-6qq6-r45m-m6cv](https://github.com/image-size/image-size/security/advisories/GHSA-6qq6-r45m-m6cv)         | Denial of Service (DoS)      | **image-size**      | JavaScript                |
 | 125 | [GHSA-rc24-26r6-qxg2](https://github.com/image-size/image-size/security/advisories/GHSA-rc24-26r6-qxg2)         | Denial of Service (DoS)      | **image-size**      | JavaScript                |
 | 124 | [CVE-2026-69152](https://www.cve.org/CVERecord?id=CVE-2026-69152) </br> [GHSA-rgw5-rvv9-x895](https://github.com/advisories/GHSA-rgw5-rvv9-x895)         | Regular Expression Denial of Service (ReDoS)      | **brace-expansion**     | Javascript                |
