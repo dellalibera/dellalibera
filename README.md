@@ -156,6 +156,19 @@
 | 2   | [HackerOne Report](https://hackerone.com/reports/878332)                         | Prototype Pollution          | **object-path-set**       | JavaScript                |
 | 1   | [HackerOne Report](https://hackerone.com/reports/865168)                         | Command Injection            | **xps**                   | JavaScript                |
 
+
+---
+### Public Acknowledgements
+- hashicorp: [HCSEC-2024-09](https://discuss.hashicorp.com/t/hcsec-2024-09-hashicorp-go-getter-vulnerable-to-argument-injection-when-fetching-remote-default-git-branches/66040)
+- Swift forums:
+    - CVE-2023-0040: [Swift Forum Announcement](https://forums.swift.org/t/asynchttpclient-crlf-injection-in-http-request-headers-cve-2023-0040/62604)
+    - CVE-2022-3215: [Swift Forum Announcement](https://forums.swift.org/t/cve-2022-3215-improper-neutralization-of-crlf-sequences-in-http-headers-http-response-splitting-in-swift-nio/60532)
+- Mozilla Web Hall of Fame: [1st Quarter 2022](https://www.mozilla.org/en-US/security/bug-bounty/web-hall-of-fame/)
+- gocd: [releases 22.1.0](https://www.gocd.org/releases/#22-1-0)
+- hashicorp: [HCSEC-2022-13](https://discuss.hashicorp.com/t/hcsec-2022-13-multiple-vulnerabilities-in-go-getter-library/39930)
+- Fastweb Hall of Fame: [2020](https://www.fastweb.it/corporate/responsible-disclosure/?lng=EN)
+- TIM Hall of Fame: [2020](https://www.gruppotim.it/en/footer/responsible-disclosure.html)
+
 ---
 ### CTF Challenges
 - Damn Vulnerable Defi - [solutions](https://github.com/dellalibera/damn-vulnerable-defi-solutions) | [write-ups](https://github.com/dellalibera/ctf-writeups/tree/main/Damn_Vulnerable_DeFI)
@@ -178,18 +191,6 @@
 | **eWPT** - eLearnSecurity Web Application Penetration Tester  | - | 03.2020 |
 | **eMAPT** - eLearnSecurity Mobile Application Penetration Tester  | - | 06.2017 |
 | **eCPPT** - eLearnSecurity Certified Professional Penetration Tester  | - | 03.2017 |
-
----
-### Public Acknowledgements
-- hashicorp: [HCSEC-2024-09](https://discuss.hashicorp.com/t/hcsec-2024-09-hashicorp-go-getter-vulnerable-to-argument-injection-when-fetching-remote-default-git-branches/66040)
-- Swift forums:
-    - CVE-2023-0040: [Swift Forum Announcement](https://forums.swift.org/t/asynchttpclient-crlf-injection-in-http-request-headers-cve-2023-0040/62604)
-    - CVE-2022-3215: [Swift Forum Announcement](https://forums.swift.org/t/cve-2022-3215-improper-neutralization-of-crlf-sequences-in-http-headers-http-response-splitting-in-swift-nio/60532)
-- Mozilla Web Hall of Fame: [1st Quarter 2022](https://www.mozilla.org/en-US/security/bug-bounty/web-hall-of-fame/)
-- gocd: [releases 22.1.0](https://www.gocd.org/releases/#22-1-0)
-- hashicorp: [HCSEC-2022-13](https://discuss.hashicorp.com/t/hcsec-2022-13-multiple-vulnerabilities-in-go-getter-library/39930)
-- Fastweb Hall of Fame: [2020](https://www.fastweb.it/corporate/responsible-disclosure/?lng=EN)
-- TIM Hall of Fame: [2020](https://www.gruppotim.it/en/footer/responsible-disclosure.html)
 
 ---
 ### Academic Papers
