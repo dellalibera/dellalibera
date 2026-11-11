@@ -25,6 +25,7 @@
 
 | # | Reference     | Vulnerability  | Project    | Language |
 |---|-------------- | -------------- | ---------- |----------|
+| 130 | [GHSA-8g49-pg6g-xgrf](https://github.com/headroomlabs-ai/headroom/security/advisories/GHSA-8g49-pg6g-xgrf)         | Path Traversal      | **headroom-ai** (MCP Server)     | Python                |
 | 129 | [CVE-2023-54404](https://www.cve.org/CVERecord?id=CVE-2023-54404) </br> [VulnCheck Advisor](https://www.vulncheck.com/advisories/zod-uncontrolled-resource-consumption-via-array-validation)         | Denial of Service (DoS) / Memory Exhaustion      | **zod**      | JavaScript                |
 | 128 | [GHSA-46qc-v7pw-4j7j](https://github.com/elysiajs/elysia/security/advisories/GHSA-46qc-v7pw-4j7j)         | Denial of Service (DoS) / Memory Exhaustion      | **elysia**      | JavaScript                |
 | 127 | [CVE-2026-102827](https://www.cve.org/CVERecord?id=CVE-2026-102827) </br> [GHSA-858h-whjf-mvg5](https://github.com/steveukx/git-js/security/advisories/GHSA-858h-whjf-mvg5)         | Command Injection            | **simple-git**            | JavaScript                |
